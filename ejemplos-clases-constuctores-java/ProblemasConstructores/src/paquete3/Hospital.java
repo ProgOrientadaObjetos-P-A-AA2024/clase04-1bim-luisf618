@@ -61,6 +61,9 @@ public class Hospital {
                 + "Doctores: %d\nNumero de Enfermeros: %d\n", obtenerNombre(),
                 ciudad, obtenerNumeroDoctores(),
                 obtenerNumeroEnfermeros());
+        // Podemos ocupar el metodo y el atributo porque ambos guardan el valor
+        // que se ocupa en el metodo main y al estar en la misma clase no
+        // influye si es publico o privado, dejandonos ocupar el atributo.
         return cadena;
     }
 
